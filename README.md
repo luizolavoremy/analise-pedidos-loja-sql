@@ -85,6 +85,7 @@ O arquivo `pedidos.db` é gerado ao rodar o notebook e fica fora do Git.
 
 - Análise e limpeza com pandas: [analise-pedidos-loja](https://github.com/luizolavoremy/analise-pedidos-loja)
 - Dashboard em Power BI sobre os mesmos dados: [analise-pedidos-loja-powerbi](https://github.com/luizolavoremy/analise-pedidos-loja-powerbi)
+- Agentes de IA que geram um relatório sobre os mesmos dados: [ai-business-assistant](https://github.com/luizolavoremy/ai-business-assistant)
 
 ## Autor
 
