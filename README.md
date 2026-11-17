@@ -52,6 +52,7 @@ O notebook carrega o CSV num banco SQLite (`pedidos.db`) com `df.to_sql` e, a pa
 - Nos empates (por exemplo, MG na pergunta 7), o desempate é pela ordem alfabética do produto.
 - Os resultados descrevem o que aconteceu, sem testar causas. As conclusões de negócio estão no projeto 1.
 - A base é sintética.
+- A base limpa ainda tem **20 pedidos com preço unitário negativo**, que a limpeza do projeto 1 não tratou. O problema foi percebido depois, ao montar o diagnóstico do projeto 4. As queries de receita incluem esses pedidos, que somam −R$ 6.329,96 (cerca de 0,3%): sem eles, a receita total seria R$ 2.087.662,33, e não R$ 2.081.332,37. Os rankings de receita por produto, categoria, estado e canal não mudam. Os números foram mantidos como estão para ficarem iguais nos quatro projetos da série.
 
 ## Tecnologias
 
